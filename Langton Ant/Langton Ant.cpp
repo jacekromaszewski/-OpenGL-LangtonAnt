@@ -2,7 +2,7 @@
 #include <iostream>
 #include <GL/glut.h>
 #include "Mrowka.h"
-#include "Snake.h"
+
 using namespace std;
 
 
@@ -34,12 +34,6 @@ int main(int argc, char** argv)
 		i++;
 	}
 
-	///*Snake snake(height, width);
-	//while (i != 11000)
-	//{
-	//	snake.Run();
-	//	i++;
-	//}*/
 
 	glutMainLoop();
 

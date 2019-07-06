@@ -153,7 +153,6 @@
   <ItemGroup>
     <ClInclude Include="Mrowka.h" />
     <ClInclude Include="pch.h" />
-    <ClInclude Include="Snake.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Langton Ant.cpp" />
@@ -164,7 +163,6 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="Snake.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
